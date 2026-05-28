@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         var scanner = new Scanner(System.in);
-        System.out.println("Informe um número para calcular uma tabuada de 1 até 10:");
+        System.out.println("Informe um número para calcular sua tabuada:");
         var num1 = scanner.nextInt();
 
         for (var i = 1; i <= 10; i++) {
